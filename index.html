@@ -4,122 +4,80 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Summer Kate's Personal Site</title>
+		<title>Summer Kate Nadela</title>
+
+		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="icon" href="logo/favicon-32x32.png" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Dosis:wght@300&family=Zen+Loop&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Barlow&display=swap"
+			rel="stylesheet"
+		/>
 	</head>
 	<body>
-		<table cellspacing="20">
-			<tr>
-				<td>
-					<img src="images/summer.png" alt="summer profile picture" />
-				</td>
-				<td>
-					<h1>
-						<a href="https://www.facebook.com/kate.nadela.8/"
-							>Summer Kate Nadela</a
-						>
-					</h1>
+		<div class="top-container">
+			<img class="top-cloud cloud" src="image/cloud.png" />
+			<h1>I'm Summer</h1>
+			<h2>game developer</h2>
+			<img class="bottom-cloud cloud" src="image/cloud.png" />
+			<img class="home" src="image/home.png" />
+			<h3 class="home-speech">Hello there!</h3>
+			<img class="grass" src="image/grass.png" />
+			<!-- <img class="flower" src="image/flower.png" /> -->
+		</div>
+		<div class="middle-container">
+			<div class="profile">
+				<img class="prof-pic" src="image/girl.png" alt="profile-picture" />
+				<h2>Hello.</h2>
+				<p class="bio">
+					I am Summer Kate Nadela. A sophomore college student aspiring to be a
+					Game Developer.
+				</p>
+			</div>
+			<hr />
+			<div class="skills">
+				<h2>My Skills</h2>
+				<div class="skill-row">
+					<img class="skill one" src="image/coding.png" alt="skill-one-code" />
+					<h3>Web & Game Development</h3>
 					<p>
-						<em><strong>Computer Science </strong>Student</em>
+						I can create websites and simple games. You can checkout an example
+						of a website I created:
+						<a href="https://pinoyhangout.xyz/">https://pinoyhangout.xyz/</a>
 					</p>
+				</div>
+				<div class="skill-row">
+					<img class="skill two" src="image/bot.png" alt="skill-two-cook" />
+					<h3>Creating Discord Bot</h3>
 					<p>
-						I am a freshman student taking Bachelor of Science in Computer
-						Science at Cavite State University. Mostly, I do projects under JS,
-						Python, and C++ langauges.
+						I practice my javascript through creations of Discord Bots. I have
+						made 5 of them in my first year.
 					</p>
-				</td>
-			</tr>
-		</table>
+				</div>
+			</div>
+			<hr />
+			<div class="contact-me">
+				<h2>Get In Touch</h2>
+				<h3>I am always open to new opportunities and projects!</h3>
+				<p class="contact-msg">Use "Hello!" as your email subject! :></p>
+				<a class="btn" href="mailto:summerkate.nadela@gmail.com">CONTACT ME</a>
+			</div>
+		</div>
 
-		<hr />
-
-		<h3>Education</h3>
-		<ul>
-			<li>
-				College
-				<ul>
-					<li>AMA University</li>
-					<li>2019</li>
-					<li>Cavite State University</li>
-					<li>2020 - present</li>
-				</ul>
-			</li>
-			<li>
-				Senior High School
-				<ul>
-					<li>National College of Science and Technology</li>
-					<li>2017 - 2019</li>
-				</ul>
-			</li>
-			<li>
-				Junior High School
-				<ul>
-					<li>Marella Christianne Institute</li>
-					<li>2013 - 2017</li>
-				</ul>
-			</li>
-			<li>
-				Elementary
-				<ul>
-					<li>Maryhills School of Cavite</li>
-					<li>2011 - 2013</li>
-					<li>Trece Martires City Elementary School</li>
-					<li>2007 - 2013</li>
-				</ul>
-			</li>
-		</ul>
-		<hr />
-		<h3>Work Experience</h3>
-		<table cellspacing="5">
-			<thead>
-				<tr>
-					<th>Year</th>
-					<th>Company</th>
-					<th>Position</th>
-				</tr>
-			</thead>
-			<tr>
-				<td>2019</td>
-				<td>SM Store</td>
-				<td>Checker</td>
-			</tr>
-			<tr>
-				<td>2017</td>
-				<td>Need Grocery</td>
-				<td>Promo Girl</td>
-			</tr>
-		</table>
-		<hr />
-		<h3>Skills</h3>
-
-		<table cellspacing="5">
-			<tr>
-				<td>Web Development</td>
-				<td>⭐⭐⭐</td>
-				<td>Bot Development (Discord)</td>
-				<td>⭐⭐⭐</td>
-			</tr>
-			<tr>
-				<td>Photoshop</td>
-				<td>⭐⭐</td>
-				<td>Cooking</td>
-				<td>⭐⭐</td>
-			</tr>
-			<tr>
-				<td>Pixel Art</td>
-				<td>⭐⭐</td>
-				<td>Writing</td>
-				<td>⭐⭐</td>
-			</tr>
-		</table>
-		<hr />
-		<h3>My Hobbies</h3>
-		<ol>
-			<li>Coding</li>
-			<li>Cooking</li>
-			<li>Watching Movies and Series</li>
-			<li>Listening to Music</li>
-		</ol>
-		<hr />
-		<h3><a href="contacts.html">Contacts</a></h3>
+		<div class="bottom-container">
+			<a class="footer-link" href="discord.gg/pinoyhangouthigh/">Discord</a>
+			<a class="footer-link" href="https://www.facebook.com/RookieTechOfficial"
+				>Facebook</a
+			>
+			<a class="footer-link" href="https://happysammy08.github.io/cv/"
+				>Website</a
+			>
+			<p class="copyright">© 2021 Summer Kate Nadela</p>
+		</div>
 	</body>
 </html>
